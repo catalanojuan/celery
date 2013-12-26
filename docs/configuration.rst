@@ -342,6 +342,13 @@ AMQP backend settings
 
 .. setting:: CELERY_RESULT_EXCHANGE
 
+CELERY_AMQP_CLS
+~~~~~~~~~~~~~~~
+
+Name of the AMQP class used. Default is `celery.app.amqp:AMQP`.
+
+.. setting:: CELERY_AMQP_CLS
+
 CELERY_RESULT_EXCHANGE
 ~~~~~~~~~~~~~~~~~~~~~~
 
